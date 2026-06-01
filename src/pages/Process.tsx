@@ -5,15 +5,14 @@ import SectionHeading from "@/components/SectionHeading";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const steps = [
-  { icon: MessageSquare, title: "Consultation", desc: "We discuss your vision, requirements, lifestyle, and budget to understand your needs." },
   { icon: MapPin, title: "Site Visit", desc: "Our team visits your space to assess dimensions, lighting, and structural considerations." },
+  { icon: MessageSquare, title: "Consultation", desc: "We discuss your vision, requirements, lifestyle, and budget to understand your needs." },
   { icon: Lightbulb, title: "Design Concept", desc: "We create a tailored design concept with mood boards, layouts, and material palettes." },
   { icon: Box, title: "3D Visuals", desc: "Photorealistic 3D renders let you experience your space before construction begins." },
   { icon: Palette, title: "Material Selection", desc: "We help you choose the finest materials, finishes, and furnishings within your budget." },
   { icon: Hammer, title: "Execution", desc: "Our skilled team brings the design to life with precision craftsmanship and quality control." },
   { icon: CheckCircle2, title: "Final Handover", desc: "We walk you through every detail and ensure complete satisfaction before handover." },
 ];
-
 const Process = () => {
   return (
     <Layout>

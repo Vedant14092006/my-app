@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo.jpg";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { label: "Home", path: "/" },
   { label: "About Us", path: "/about" },
   { label: "Services", path: "/services" },
-  { label: "Portfolio", path: "/portfolio" },
+  { label: "Projects", path: "/portfolio" },
   { label: "Process", path: "/process" },
   { label: "Testimonials", path: "/testimonials" },
   { label: "Contact Us", path: "/contact" },
@@ -19,9 +19,9 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
-      <div className="container mx-auto px-4 flex items-center justify-between h-20">
+      <div className="container mx-auto px-4 p1-6 flex items-center justify-between h-20">
         <Link to="/" className="flex items-center gap-3">
-          <img src={logo} alt="Aseem Design Studios" className="h-14 w-auto" />
+          <img src={logo} alt="Aseem Designs Studio" className="h-20 w-auto" />
         </Link>
 
         {/* Desktop */}

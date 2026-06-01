@@ -39,9 +39,8 @@ const clients = [
 
 const highlights = [
   { number: "15+", label: "Years Experience" },
-  { number: "500+", label: "Projects Delivered" },
+  { number: "200+", label: "Projects Delivered" },
   { number: "100%", label: "Client Satisfaction" },
-  { number: "50+", label: "Design Awards" },
 ];
 
 const Index = () => {
@@ -80,7 +79,7 @@ const Index = () => {
         </AnimatePresence>
 
         <div className="relative z-10 h-full flex items-center">
-          <div className="container mx-auto px-4">
+          <div className="container mx-auto px-4 p1-10">
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
@@ -91,8 +90,8 @@ const Index = () => {
                 Gurugram's Premier Interior Studio
               </span>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-foreground mt-4 mb-6 leading-tight">
-                Plan. Design.{" "}
-                <span className="text-gradient-gold">Shape.</span>
+                Aseem Designs {" "}
+                <span className="text-gradient-gold">Studio</span>
               </h1>
               <p className="text-lg text-muted-foreground font-body mb-8 leading-relaxed">
                 Transforming spaces into extraordinary experiences since 2010.
