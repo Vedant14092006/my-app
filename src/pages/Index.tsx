@@ -22,6 +22,17 @@ import portfolio2 from "@/assets/portfolio-2.jpg";
 import portfolio3 from "@/assets/portfolio-3.jpg";
 import portfolio4 from "@/assets/portfolio-4.jpg";
 import portfolio5 from "@/assets/portfolio-5.jpg";
+import portfolio6 from "@/assets/portfolio-6.jpg";
+import portfolio7 from "@/assets/portfolio-7.jpg";
+import portfolio8 from "@/assets/portfolio-8.jpg";
+import portfolio9 from "@/assets/portfolio-9.jpg";
+import portfolio10 from "@/assets/portfolio-10.jpg";
+import portfolio11 from "@/assets/portfolio-11.jpg";
+import portfolio12 from "@/assets/portfolio-12.jpg";
+import portfolio14 from "@/assets/portfolio-14.jpg";
+import portfolio15 from "@/assets/portfolio-15.jpg";
+import portfolio16 from "@/assets/portfolio-16.jpg";
+import portfolio17 from "@/assets/portfolio-17.jpg";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const projects = [
@@ -50,8 +61,62 @@ const projects = [
     title: "Elegant Master Bedroom",
     category: "Residential",
   },
+  {
+    image: portfolio6,
+    title: "Natural Stone Foyer",
+    category: "Residential",
+  },
+  {
+    image: portfolio7,
+    title: "Contemporary Hallway",
+    category: "Residential",
+  },
+  {
+    image: portfolio8,
+    title: "Statement Bedroom",
+    category: "Bedroom",
+  },
+  {
+    image: portfolio9,
+    title: "Contemporary Bedroom",
+    category: "Bedroom",
+  },
+  {
+    image: portfolio10,
+    title: "Floral Feature Bedroom",
+    category: "Bedroom",
+  },
+  {
+    image: portfolio11,
+    title: "Luxury Media Room",
+    category: "Entertainment",
+  },
+  {
+    image: portfolio12,
+    title: "Elegant Living Room",
+    category: "Living Room",
+  },
+  {
+    image: portfolio14,
+    title: "Luxury Bathroom",
+    category: "Bathroom",
+  },
+  {
+    image: portfolio15,
+    title: "Luxury Home Bar",
+    category: "Custom Interior",
+  },
+  {
+    image: portfolio16,
+    title: "Designer Pooja Room",
+    category: "Pooja Room",
+  },
+  {
+    image: portfolio17,
+    title: "Kids Room Interior",
+    category: "Kids Room",
+  },
 ];
-
 const services = [
   "Residential Interior Design",
   "Commercial / Office Interiors",

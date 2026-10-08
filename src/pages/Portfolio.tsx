@@ -9,15 +9,113 @@ import portfolio4 from "@/assets/portfolio-4.jpg";
 import portfolio5 from "@/assets/portfolio-5.jpg";
 import portfolio6 from "@/assets/portfolio-6.jpg";
 import portfolio7 from "@/assets/portfolio-7.jpg";
+import portfolio8 from "@/assets/portfolio-8.jpg";
+import portfolio9 from "@/assets/portfolio-9.jpg";
+import portfolio10 from "@/assets/portfolio-10.jpg";
+import portfolio11 from "@/assets/portfolio-11.jpg";
+import portfolio12 from "@/assets/portfolio-12.jpg";
+import portfolio14 from "@/assets/portfolio-14.jpg";
+import portfolio15 from "@/assets/portfolio-15.jpg";
+import portfolio16 from "@/assets/portfolio-16.jpg";
+import portfolio17 from "@/assets/portfolio-17.jpg";
 
 const projects = [
-  { image: portfolio1, title: "Artisan Foyer Design", category: "Residential", location: "Gurugram" },
-  { image: portfolio2, title: "Zen Entryway & Corridor", category: "Residential", location: "Delhi NCR" },
-  { image: portfolio3, title: "Luxury Living Room", category: "Residential", location: "Gurugram" },
-  { image: portfolio4, title: "Statement TV Unit", category: "Residential", location: "Noida" },
-  { image: portfolio5, title: "Premium Kitchen Display", category: "Kitchen", location: "Gurugram" },
-  { image: portfolio6, title: "Natural Stone Foyer", category: "Residential", location: "Gurugram" },
-  { image: portfolio7, title: "Contemporary Hallway", category: "Residential", location: "Gurugram" },
+  {
+    image: portfolio1,
+    title: "Luxury Living Room",
+    category: "Residential",
+    location: "Gurugram",
+  },
+  {
+    image: portfolio2,
+    title: "Modern Office Space",
+    category: "Commercial",
+    location: "Gurugram",
+  },
+  {
+    image: portfolio3,
+    title: "Premium Retail Showroom",
+    category: "Retail",
+    location: "Gurugram",
+  },
+  {
+    image: portfolio4,
+    title: "Modular Kitchen Design",
+    category: "Kitchen",
+    location: "Gurugram",
+  },
+  {
+    image: portfolio5,
+    title: "Elegant Master Bedroom",
+    category: "Residential",
+    location: "Gurugram",
+  },
+  {
+    image: portfolio6,
+    title: "Natural Stone Foyer",
+    category: "Residential",
+    location: "Gurugram",
+  },
+  {
+    image: portfolio7,
+    title: "Contemporary Hallway",
+    category: "Residential",
+    location: "Gurugram",
+  },
+  {
+    image: portfolio8,
+    title: "Statement Bedroom",
+    category: "Bedroom",
+    location: "Gurugram",
+  },
+  {
+    image: portfolio9,
+    title: "Contemporary Bedroom",
+    category: "Bedroom",
+    location: "Gurugram",
+  },
+  {
+    image: portfolio10,
+    title: "Floral Feature Bedroom",
+    category: "Bedroom",
+    location: "Gurugram",
+  },
+  {
+    image: portfolio11,
+    title: "Luxury Media Room",
+    category: "Entertainment",
+    location: "Gurugram",
+  },
+  {
+    image: portfolio12,
+    title: "Elegant Living Room",
+    category: "Living Room",
+    location: "Gurugram",
+  },
+  {
+    image: portfolio14,
+    title: "Luxury Bathroom",
+    category: "Bathroom",
+    location: "Gurugram",
+  },
+  {
+    image: portfolio15,
+    title: "Luxury Home Bar",
+    category: "Custom Interior",
+    location: "Gurugram",
+  },
+  {
+    image: portfolio16,
+    title: "Designer Pooja Room",
+    category: "Pooja Room",
+    location: "Gurugram",
+  },
+  {
+    image: portfolio17,
+    title: "Kids Room Interior",
+    category: "Kids Room",
+    location: "Gurugram",
+  },
 ];
 
 const Portfolio = () => {
